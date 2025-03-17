@@ -6,7 +6,7 @@
 
 body {
   font-family: "Space Mono", monospace;
-  background-color: #f6f8ff;
+  /* background-color: #f6f8ff; */
   display: flex;
   justify-content: center;
   align-items: center;
