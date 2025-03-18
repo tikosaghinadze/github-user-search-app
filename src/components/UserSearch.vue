@@ -32,14 +32,14 @@ const getUserProfile = async () => {
 
 <template>
   <div
-    class="flex justify-between items-center bg-white p-[9.5px] rounded-[15px] cursor-pointer dark:bg-[#1E2A47]"
+    class="bg-white w-full flex items-center justify-between p-[9.5px] rounded-[15px] cursor-pointer dark:bg-[#1E2A47]"
   >
-    <div class="flex justify-center items-center gap-[3px] md:gap-6">
+    <div class="w-[300px] flex items-center gap-[4px] md:gap-[23px]">
       <img class="w-5 h-5 md:w-5 md:h-6" :src="SearchIcon" alt="search icon" />
       <input
         v-model="userName"
         @keydown.enter="getUserProfile"
-        class="outline-none placeholder:text-center placeholder:text-[13px] md:placeholder:text-[18px] placeholder:text-[#4B6A9B] placeholder:font-[Space Mono] text-[13px] md:text-[18px] text-[#222731] font-[Space Mono] dark:bg-[#1E2A47] dark:text-white dark:placeholder:text-white"
+        class="outline-none placeholder:text-center w-full placeholder:text-[13px] md:placeholder:text-[18px] placeholder:text-[#4B6A9B] placeholder:font-[Space Mono] text-[13px] md:text-[18px] text-[#222731] font-[Space Mono] dark:bg-[#1E2A47] dark:text-white dark:placeholder:text-white"
         type="text"
         placeholder="Search GitHub username…"
       />

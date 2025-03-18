@@ -27,7 +27,7 @@ const toggleDarkMode = () => {
       class="flex items-center justify-center gap-4 cursor-pointer"
     >
       <h3
-        class="tracking-[2.5px] font-[Space Mono] font-bold text-[#697C9A] text-[13px] dark:text-white dark:hover:text-[#90A4D4]"
+        class="tracking-[2.5px] font-[Space Mono] font-bold text-[#697C9A] text-[13px] dark:text-white hover:text-[#222731] dark:hover:text-[#90A4D4]"
       >
         {{ isDarkMode ? "LIGHT" : "  DARK" }}
       </h3>
